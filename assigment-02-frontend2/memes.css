@@ -123,4 +123,21 @@ div.polaroid {
     padding: 20px;
   }
   
-  
+  #footer-row1{
+    margin-top: 80px;
+    padding: 1.2em 0;
+    background:  rgb(0, 1, 48);
+    bottom: 0;
+    margin-right: -33px;
+    font-family: "Fjalla One", Verdana, Geneva, sans-serif;
+    font-size: 0.95em;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.copyright{
+    text-align: center;
+    color: #FFF;
+}
