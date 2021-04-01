@@ -24,16 +24,13 @@ div.polaroid {
      solid black;
   }
   
-  /* helpers/grid.css */
   
   .grid {
     inline-size: 90%;
     margin-inline: auto;
     max-inline-size: 48em;
   }
-  
-  /* helpers/sticky.css */
-  
+    
   .sticky {
     position: sticky;
     will-change: transform;
@@ -43,7 +40,6 @@ div.polaroid {
     top: 0;
   }
   
-  /* layout/base.css */
   
   * {
     box-sizing: inherit;
@@ -133,11 +129,13 @@ div.polaroid {
     font-size: 0.95em;
     text-transform: uppercase;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-
 }
 
 .copyright{
     text-align: center;
     color: #FFF;
+}
+
+img {
+  max-width: 100%;
 }

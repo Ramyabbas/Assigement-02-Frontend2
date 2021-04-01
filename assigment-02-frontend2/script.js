@@ -1,4 +1,4 @@
-let app = angular.module("myApp", [])
+let app = angular.module("myApp", []) //Get all memes 
 
 app.controller("allMemesController", function($scope, $http) {
 	$http.get("https://api.imgflip.com/get_memes")
